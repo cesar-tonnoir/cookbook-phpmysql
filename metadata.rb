@@ -1,5 +1,5 @@
 name             'phpmysql'
-maintainer       'Cesar Tonnoit'
+maintainer       'Cesar Tonnoir'
 maintainer_email 'it@maestrano.com.com'
 license          'all_rights'
 description      'Installs/Configures cookbook-phpmysql'
