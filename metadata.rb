@@ -10,7 +10,8 @@ recipe "phpmysql", "Installs PHP, NGINX, & MySQL client on the container"
 
 depends "nginx"
 depends "database"
-depends "mysql", "~> 5.5.0"
+depends "mysql"
+
 depends "tar"
 depends "php"
 depends "php-fpm"
