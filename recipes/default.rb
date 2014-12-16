@@ -23,3 +23,4 @@ include_recipe "nginx"
 
 # Install MYSQL-CLIENT
 include_recipe "mysql::client" unless platform_family?('windows') # No MySQL client on Windows
+include_recipe "database::mysql"

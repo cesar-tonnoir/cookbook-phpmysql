@@ -9,9 +9,8 @@ version          '0.1.0'
 recipe "phpmysql", "Installs PHP, NGINX, & MySQL client on the container"
 
 depends "nginx"
-depends "database"
+depends "database", '~> 2.3.1'
 depends "mysql"
-
 depends "tar"
 depends "php"
 depends "php-fpm"
